@@ -63,7 +63,7 @@ class GoogleAuth extends React.Component {
 
 const mapStateToProps = state => {
   return {
-    isSignedIn: state.authenticated.isSignedIn
+    isSignedIn: state.auth.isSignedIn
   };
 };
 
